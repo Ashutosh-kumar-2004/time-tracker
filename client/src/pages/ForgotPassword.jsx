@@ -67,7 +67,6 @@ const ForgotPassword = () => {
           );
         } else {
           toast.info("EmailJS keys missing. OTP logged to console.");
-          console.log("OTP:", data.otp);
         }
 
         toast.success("OTP sent to your email");
